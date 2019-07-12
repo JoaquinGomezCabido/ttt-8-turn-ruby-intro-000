@@ -29,11 +29,7 @@ def input_to_index(input)
 end
 
 def move(board, index, symbol="X")
-  if(valid_move?)
     board[index] = symbol
-  else
-  end
-  return board
 end
 
 def turn (board)
