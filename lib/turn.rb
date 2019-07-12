@@ -32,7 +32,6 @@ def move(board, index, symbol="X")
   if(valid_move?)
     board[index] = symbol
   end
-  return board
 end
 
 def turn (board)
